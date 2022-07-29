@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T04:27:26.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="UfkH8sPye4zwafOUbyaU" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T04:29:22.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zsezv2Ew0m4W-Vr-pM0m" version="20.2.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1865" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -79,7 +79,7 @@
           <mxGeometry y="34" width="240" height="36" as="geometry" />
         </mxCell>
         <mxCell id="B0YlaRKhiyRvBtyhOVPh-32" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 13px; orphans: 4; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;md-plain md-expand&quot;&gt;所有事件状态对象都是从 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 13px; orphans: 4; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;md-pair-s&quot; spellcheck=&quot;false&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--monospace); vertical-align: initial; border: 1px solid rgb(231, 234, 237); background-color: rgb(243, 244, 244); border-radius: 3px; padding: 0px 2px; font-size: 13px;&quot;&gt;EventObject&lt;/code&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 13px; orphans: 4; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;md-plain md-expand&quot;&gt; 类衍生出来&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-70" y="85" width="150" height="80" as="geometry" />
+          <mxGeometry x="390" y="85" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B0YlaRKhiyRvBtyhOVPh-40" value="&lt;&lt;接口&gt;&gt;&#xa;ApplicationEventMulticaster" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="110" width="310" height="144" as="geometry">
@@ -204,6 +204,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="B0YlaRKhiyRvBtyhOVPh-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF3333;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B0YlaRKhiyRvBtyhOVPh-77" target="B0YlaRKhiyRvBtyhOVPh-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1173" y="580" />
+              <mxPoint x="1090" y="580" />
+              <mxPoint x="1090" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0YlaRKhiyRvBtyhOVPh-92" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#000000;" vertex="1" connectable="0" parent="B0YlaRKhiyRvBtyhOVPh-91">
+          <mxGeometry x="-0.27" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B0YlaRKhiyRvBtyhOVPh-77" value="AbstractApplicationContext" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1100" y="610" width="290" height="150" as="geometry">
             <mxRectangle x="490" y="100" width="220" height="40" as="alternateBounds" />
@@ -218,16 +232,8 @@
         <mxCell id="B0YlaRKhiyRvBtyhOVPh-79" value="+ publishEvent(ApplicaitonEvent event)&#xa;- initApplicationEventMulticaster&#xa;(ConfigurableListableBeanFactory beanFactory)&#xa;- registerListeners()&#xa;- finishRefresh()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#1D3557;" vertex="1" parent="B0YlaRKhiyRvBtyhOVPh-77">
           <mxGeometry y="68" width="290" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="B0YlaRKhiyRvBtyhOVPh-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B0YlaRKhiyRvBtyhOVPh-80" target="B0YlaRKhiyRvBtyhOVPh-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="B0YlaRKhiyRvBtyhOVPh-85" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="B0YlaRKhiyRvBtyhOVPh-84">
-          <mxGeometry x="0.1862" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B0YlaRKhiyRvBtyhOVPh-90" value="&lt;font color=&quot;#ff3333&quot;&gt;1. 初始化事件广播器: 包括实例化事件广播器; 注册广播器对象到单例对象容器中。&lt;br&gt;2.&amp;nbsp;注册事件监听器到事件广播器的容器中。&lt;br&gt;3.&amp;nbsp;发布容器刷新完成事件&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1420" y="625" width="200" height="120" as="geometry" />
+        <mxCell id="B0YlaRKhiyRvBtyhOVPh-90" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 12px;&quot;&gt;1. 初始化事件广播器: 包括实例化事件广播器; 注册广播器对象到单例对象容器中。&lt;br style=&quot;font-size: 12px;&quot;&gt;2.&amp;nbsp;注册事件监听器到事件广播器的容器中。&lt;br style=&quot;font-size: 12px;&quot;&gt;3.&amp;nbsp;发布容器刷新完成事件&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="640" width="190" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
