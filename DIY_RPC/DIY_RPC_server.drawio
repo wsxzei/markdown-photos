@@ -1,1 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T15:12:44.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bYrqyfbcG9kFh7Jsu3tC" version="20.8.1" type="github"><diagram name="Page-1" id="2YBvvXClWsGukQMizWep">7ZlLc5swEMc/DcfMGAh+HONHm0MzTePO9CzDxqiVERHCj376rowEFpjETULTpj4Z/bV6oP1pdxk7/mS1/ShIGt/wCJjj9aKt408dz3O9YIQ/StlppdfvF8pS0EhrlTCnP8EYajWnEWSWoeScSZraYsiTBEJpaUQIvrHN7jmzV03JEhrCPCSsqX6jkYwLdRj0Kv0a6DI2K7s93bMixlgLWUwivjmQ/JnjTwTnsnhabSfA1OmZcynGfWjpLTcmIJGnDCA3I7Fb+9v1wEsf+PbL9O56dqFnWROW6xd2/KvPi+/qKItdy505CnyBVD3mK/aJ3gOjCbbGKQi6AgkCe5iWbyttvImphHlKQjV0g5SgFssVw5aLj+g3SXCIGt7DdiR4+pWIJUgthJwxkmZ0sd+GUgSEucjoGu4gK3hRKs+lWnpScqDElAuJSiYFrqFEIJncQIaP4wQ2swh9bV5wMHa8/kOu3DGGsqOU8FwO+tmCH4yujLxJzahlgjUISZGylqH4gmuIrLE9y0DwPIkaFoPpfqK9R3EB2Lai4pYA4tUFjs4SOzTRAy41sju7uakuQIl5fAC/b0SiL92ynLniEh80mr+BqdfEtE7nAVMpR2fvtxCMnWBagxSRiPmSJ4QdYnoUH7kHca64z5rgn9k6zlZ7oGkHLrCAGxwDrsmbO+qKN7/BW0SzlMgwfow7c/BXjC4T1BZcSr7CjgxBklcqGyn+cFblwSQyyoLx8Icx0ylwaJGCcNlUGAL8aent0rM6SmovFq1i22rCZ7gNU66JyI9e0KZ7BTAiMVLbafmIt/TQW3VzKywu3ONcmBkynosQ9KCay8tdPJ+Cy3PUeddRJ7DTnOudFnaGXUWd4FyM/ZfoPk5p+QHx11Rj/XNc/Hfgao80p1ZjwxOrsXp2fjXeBq9bjR2pvP5spaWlonp5+qvnyeKr30nx5Y5sDFz/tOoLz5bsDsz0/W9fZ3g8DVfEFDO+amk3bCAlQOYieSlQPIVEJU6SxXsi3KL7zYr6U1Hrv2mdX0fN6wX2FMW+Xo7ayEbNhLZOURs1UEPHsgXBwPOuo9epSF12g9SgFr36HUWvGlJmnU6RMun3HL7sL/W3ypQ11jy/o/BVy5Se/yLWsFn9+1CYV3/i+LNf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-24T16:21:30.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8aRvJThHSKohgPtKvfe_" version="20.8.1" type="github">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1900" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AKxP44dEs1LPNEmno9JI-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#FF3333;" edge="1" parent="1" source="AKxP44dEs1LPNEmno9JI-1" target="AKxP44dEs1LPNEmno9JI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-1" value="net.Listren开启监听端口&lt;br&gt;调用Server.Accept(listener)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-2" value="服务端请求处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-10" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-8" value="服务端服务注册" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="10" width="410" height="420" as="geometry">
+            <mxRectangle x="-390" y="-10" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="AKxP44dEs1LPNEmno9JI-8" source="AKxP44dEs1LPNEmno9JI-11" target="AKxP44dEs1LPNEmno9JI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AKxP44dEs1LPNEmno9JI-8" source="AKxP44dEs1LPNEmno9JI-11" target="AKxP44dEs1LPNEmno9JI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-11" value="Register函数注册服务，接收者实例作为入参" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;gradientDirection=east;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-8">
+          <mxGeometry y="20" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AKxP44dEs1LPNEmno9JI-8" source="AKxP44dEs1LPNEmno9JI-16" target="AKxP44dEs1LPNEmno9JI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AKxP44dEs1LPNEmno9JI-8" source="AKxP44dEs1LPNEmno9JI-16" target="AKxP44dEs1LPNEmno9JI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AKxP44dEs1LPNEmno9JI-8" source="AKxP44dEs1LPNEmno9JI-16" target="AKxP44dEs1LPNEmno9JI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-16" value="newService创建服务实例" style="rounded=0;whiteSpace=wrap;html=1;gradientDirection=east;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#F19C99;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-8">
+          <mxGeometry y="120" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-19" value="存储服务实例到server.serviceMap" style="rounded=0;whiteSpace=wrap;html=1;gradientDirection=east;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-8">
+          <mxGeometry x="290" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-23" value="服务映射结构体的名称" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;gradientDirection=east;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-8">
+          <mxGeometry y="220" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-25" value="结构体的Type、Value" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;gradientDirection=east;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-8">
+          <mxGeometry x="120" y="220" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-27" value="满足rpc调用的接收者方法集合" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;gradientDirection=east;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-8">
+          <mxGeometry x="230" y="220" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-31" value="注册的方法需要满足：&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 方法所属的结构体(服务)是导出的；&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 方法是导出的；&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 方法有两个入参，均为导出或内置类型；&lt;br style=&quot;font-size: 14px;&quot;&gt;4. 第二个入参(返回值)必须是指针；&lt;br style=&quot;font-size: 14px;&quot;&gt;5. 返回值为error类型；" style="text;html=1;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-8">
+          <mxGeometry x="20" y="300" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="AKxP44dEs1LPNEmno9JI-8" source="AKxP44dEs1LPNEmno9JI-11" target="AKxP44dEs1LPNEmno9JI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-43" value="主协程" style="swimlane;whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="AKxP44dEs1LPNEmno9JI-43" source="AKxP44dEs1LPNEmno9JI-46" target="AKxP44dEs1LPNEmno9JI-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-46" value="主协程listener.Accept()监听指定端口" style="whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;fillColor=#b0e3e6;strokeColor=#0e8088;dashed=1;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-43">
+          <mxGeometry y="20" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="AKxP44dEs1LPNEmno9JI-43" source="AKxP44dEs1LPNEmno9JI-48" target="AKxP44dEs1LPNEmno9JI-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-48" value="客户端发起连接，主协程从Accept队列中取出连接实例conn" style="whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;dashed=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-43">
+          <mxGeometry y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="AKxP44dEs1LPNEmno9JI-43" source="AKxP44dEs1LPNEmno9JI-50" target="AKxP44dEs1LPNEmno9JI-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-60" value="死循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;fontStyle=1" vertex="1" connectable="0" parent="AKxP44dEs1LPNEmno9JI-59">
+          <mxGeometry x="0.1307" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-50" value="创建新协程与客户端通信&lt;br&gt;执行server.ServerConn(conn)&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;fillColor=#fad9d5;strokeColor=#ae4132;dashed=1;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-43">
+          <mxGeometry y="200" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-52" value="serverConn协程" style="swimlane;whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;fillColor=none;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-100" width="320" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF3333;" edge="1" parent="AKxP44dEs1LPNEmno9JI-52" source="AKxP44dEs1LPNEmno9JI-54" target="AKxP44dEs1LPNEmno9JI-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-54" value="反序列化得到Option结构体，得到序列化方式。" style="whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;fillColor=#b0e3e6;strokeColor=#0e8088;dashed=1;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-52">
+          <mxGeometry y="30" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-65" value="根据序列化方式，得到编解码器的构造方法，实例化编解码器codec" style="whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;fillColor=#b0e3e6;strokeColor=#0e8088;dashed=1;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-52">
+          <mxGeometry y="120" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-72" value="serverCodec解析请求" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;gradientDirection=east;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;strokeWidth=3;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-52">
+          <mxGeometry y="220" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="AKxP44dEs1LPNEmno9JI-72" source="AKxP44dEs1LPNEmno9JI-75" target="AKxP44dEs1LPNEmno9JI-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-75" value="readRequest读取请求" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fad7ac;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fontSize=12;strokeColor=#b46504;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-72">
+          <mxGeometry y="40" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-76" value="1. 使用编解码器，反序列化出请求头header" style="text;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-75">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-77" value="2. findService方法通过header.ServiceMethod字段，返回rpc请求的服务实例、方法实例。" style="text;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-75">
+          <mxGeometry y="52" width="260" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-78" value="3.&amp;nbsp; newArgv和newReplyv方法：初始化请求方法的入参。" style="text;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-75">
+          <mxGeometry y="100" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-79" value="4. 使用编解码器，反序列化请求body作为请求参数，数据写入request.argv。" style="text;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-75">
+          <mxGeometry y="140" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.998;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;" edge="1" parent="AKxP44dEs1LPNEmno9JI-72" source="AKxP44dEs1LPNEmno9JI-80" target="AKxP44dEs1LPNEmno9JI-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="275" />
+              <mxPoint x="290" y="16" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-80" value="创建新协程处理客户端请求&lt;br&gt;执行server.handleRequest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;gradientDirection=east;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="AKxP44dEs1LPNEmno9JI-72">
+          <mxGeometry y="240" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-83" value="死循环" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;fontSize=14;fontColor=#FF0000;fontStyle=1" vertex="1" parent="AKxP44dEs1LPNEmno9JI-52">
+          <mxGeometry x="290" y="290" width="20" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AKxP44dEs1LPNEmno9JI-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;" edge="1" parent="1" source="AKxP44dEs1LPNEmno9JI-50" target="AKxP44dEs1LPNEmno9JI-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
