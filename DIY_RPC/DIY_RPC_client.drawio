@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T02:45:36.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.1" etag="6C84VBmvi_XG4HVKNX_u" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T03:37:56.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="unA4r3I4-fRJ9f7dUng6" version="21.2.1" type="github">
   <diagram name="第 1 页" id="cUDW0Ltf-RdwHlrOVBqr">
-    <mxGraphModel>
+    <mxGraphModel dx="913" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sHUXjxxMIwclQJX35AoY-7" value="Dia协程" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="230" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sHUXjxxMIwclQJX35AoY-7" source="sHUXjxxMIwclQJX35AoY-16" target="sHUXjxxMIwclQJX35AoY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-16" value="parseOptions：解析Option结构，用户可自定义&lt;b&gt;连接超时时间&lt;/b&gt;、&lt;b&gt;处理请求超时时间&lt;/b&gt;。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sHUXjxxMIwclQJX35AoY-7">
+          <mxGeometry y="150" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sHUXjxxMIwclQJX35AoY-7" source="sHUXjxxMIwclQJX35AoY-21" target="sHUXjxxMIwclQJX35AoY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-21" value="net.DialTimeout：可超时的API，向服务端监听端口发起连接。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sHUXjxxMIwclQJX35AoY-7">
+          <mxGeometry y="250" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-23" value="启动子协程，使用连接实例创建客户端。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sHUXjxxMIwclQJX35AoY-7">
+          <mxGeometry y="340" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-13" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="sHUXjxxMIwclQJX35AoY-7">
+          <mxGeometry x="36.25" y="60" width="157.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-14" value="+ network string&lt;br&gt;+ address string&lt;br&gt;+ opts ...*Option" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="sHUXjxxMIwclQJX35AoY-13">
+          <mxGeometry y="20" width="157.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-8" value="建立连接，生成客户端实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="265" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-27" value="NewClient协程" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sHUXjxxMIwclQJX35AoY-27" source="sHUXjxxMIwclQJX35AoY-30" target="sHUXjxxMIwclQJX35AoY-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-30" value="在连接基础上，构造编解码器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sHUXjxxMIwclQJX35AoY-27">
+          <mxGeometry y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-31" value="使用编解码器，Json序列化Option结构，发送给服务端。通过Option结构，传递序列化算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sHUXjxxMIwclQJX35AoY-27">
+          <mxGeometry y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHUXjxxMIwclQJX35AoY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sHUXjxxMIwclQJX35AoY-23" target="sHUXjxxMIwclQJX35AoY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
