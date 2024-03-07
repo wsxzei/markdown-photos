@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T14:44:42.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.1" etag="olGtMbxkgv1tywx0TVtU" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T15:05:07.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="qrer9uBHiq-OMbEatcjC" version="24.0.1" type="github">
   <diagram name="第 1 页" id="29Iem-b51OCXDyQncSSv">
-    <mxGraphModel>
+    <mxGraphModel dx="632" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#fff2cc;gradientColor=#f7e73b;opacity=50;shadow=0;textShadow=0;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="210" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-1" value="&lt;div&gt;&lt;b&gt;case1&lt;/b&gt;：&lt;b&gt;多次对同一键进行SET操作&lt;/b&gt;&lt;/div&gt;SET name wzz&lt;div&gt;SET name wzz2333&lt;/div&gt;&lt;div&gt;SET name wzz1234&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-4" value="Redis 命令序列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="310" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#B5F4F8;opacity=65;gradientColor=#99FFB4;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-6" value="name: wzz&lt;div&gt;name: wzz2333&lt;/div&gt;&lt;div&gt;name: wzz1234&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-7" value="内存中的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=3.611111111111111;endSize=5.5;endWidth=9.490740740740742;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="399.58000000000004" as="sourcePoint" />
+            <mxPoint x="370" y="399.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-9" value="&lt;div&gt;&lt;b&gt;case2&lt;/b&gt;：&lt;b&gt;LIST 类型PUSH、POP&lt;/b&gt;&lt;/div&gt;LPUSH students wzz&lt;div&gt;RPUSH students yjp whr&lt;/div&gt;&lt;div&gt;RPOP students&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-10" value="students: [&quot;wzz&quot;]&lt;div&gt;students: [&quot;wzz&quot;, &quot;yjp&quot;, &quot;whr&quot;]&lt;/div&gt;&lt;div&gt;students: [&quot;wzz&quot;, &quot;yjp&quot;]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="470" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=3.611111111111111;endSize=5.5;endWidth=9.490740740740742;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="489.58000000000004" as="sourcePoint" />
+            <mxPoint x="360" y="489.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-13" value="&lt;div&gt;&lt;b&gt;case3&lt;/b&gt;：&lt;b&gt;SET类型SADD、SREM&lt;/b&gt;&lt;/div&gt;SADD roommate wzz whr zpf&lt;div&gt;SREM roommate&amp;nbsp;wzz zpf&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="555" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=3.611111111111111;endSize=5.5;endWidth=9.490740740740742;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="590" as="sourcePoint" />
+            <mxPoint x="370" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-15" value="roommate: [&quot;wzz&quot;,&quot;whr&quot;,&quot;zpf&quot;]&lt;div&gt;roommate:[&quot;whr&quot;]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="575" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#d0cee2;opacity=50;gradientColor=#FF9EEF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-19" value="重写 AOF 命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=3.611111111111111;endSize=5.5;endWidth=9.490740740740742;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="399.58000000000004" as="sourcePoint" />
+            <mxPoint x="580" y="399.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-21" value="SET name wzz1234" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="380" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-22" value="LPUSH students yjp wzz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="470" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-23" value="SADD roommate whr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="575" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=3.611111111111111;endSize=5.5;endWidth=9.490740740740742;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="489.58000000000004" as="sourcePoint" />
+            <mxPoint x="580" y="489.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNSYSC7UBnyipIiRc_g5-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=3.611111111111111;endSize=5.5;endWidth=9.490740740740742;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="594.58" as="sourcePoint" />
+            <mxPoint x="580" y="594.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
