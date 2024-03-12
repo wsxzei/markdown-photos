@@ -1,9 +1,207 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T14:10:37.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.4" etag="nqB_AIApy3B1KZY6TNH_" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T14:21:50.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="drsFzrbWXwWa4dSU-XyL" version="24.0.4" type="github">
   <diagram name="第 1 页" id="NksI_O7PuR5U_MFr7wAt">
-    <mxGraphModel>
+    <mxGraphModel dx="600" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="58fUAlQGITOVt8zgEsRh-68" value="" style="shape=mxgraph.signs.safety.no;html=1;pointerEvents=1;fillColor=#f8cecc;strokeColor=#b85450;verticalLabelPosition=bottom;verticalAlign=top;align=center;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1072.75" y="122" width="64.5" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-1" target="58fUAlQGITOVt8zgEsRh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-1" value="小王" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="206" width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-things/64/house_gasstove_n_oven-128.png" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-3" value="wzz" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="207" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-6" value="小刘" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="207" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-3" target="58fUAlQGITOVt8zgEsRh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-6" target="58fUAlQGITOVt8zgEsRh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-things/64/house_gasstove_n_oven-128.png" vertex="1" parent="1">
+          <mxGeometry x="31" y="360" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-13" value="wzz" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="216" y="397" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-14" value="小刘" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="397" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-14" target="58fUAlQGITOVt8zgEsRh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="159" y="488" width="50" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-17" value="小王" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="58fUAlQGITOVt8zgEsRh-20">
+          <mxGeometry width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-19" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.java" vertex="1" parent="58fUAlQGITOVt8zgEsRh-20">
+          <mxGeometry x="30.599999999999994" width="19.4" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-22" target="58fUAlQGITOVt8zgEsRh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-22" value="小王" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="216" width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-things/64/house_gasstove_n_oven-128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-24" value="wzz" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="217" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-25" value="小刘" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="874" y="217" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-24" target="58fUAlQGITOVt8zgEsRh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-25" target="58fUAlQGITOVt8zgEsRh-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-28" value="whr" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-28" target="58fUAlQGITOVt8zgEsRh-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="120" as="sourcePoint" />
+            <mxPoint x="620" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-30" value="刚好窗口没人&lt;br&gt;插队伍领取Java茶" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-32" target="58fUAlQGITOVt8zgEsRh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-32" value="小王" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="406" width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-33" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-things/64/house_gasstove_n_oven-128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-34" value="wzz" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="407" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-35" value="小刘" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="874" y="407" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-34" target="58fUAlQGITOVt8zgEsRh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-35" target="58fUAlQGITOVt8zgEsRh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="630" y="520" width="50" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-40" value="whr" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="58fUAlQGITOVt8zgEsRh-39">
+          <mxGeometry width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-41" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.java" vertex="1" parent="58fUAlQGITOVt8zgEsRh-39">
+          <mxGeometry x="30.599999999999994" width="19.4" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-42" value="whr" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="216" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="96" y="120" as="sourcePoint" />
+            <mxPoint x="142" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-45" value="新来的同学排队" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="58fUAlQGITOVt8zgEsRh-43">
+          <mxGeometry x="-0.2537" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-46" value="whr" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="394" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-46" target="58fUAlQGITOVt8zgEsRh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-49" target="58fUAlQGITOVt8zgEsRh-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-49" value="小王" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="225" width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-things/64/house_gasstove_n_oven-128.png" vertex="1" parent="1">
+          <mxGeometry x="970" y="189" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-51" value="wzz" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="226" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-52" value="小刘" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1324" y="226" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-51" target="58fUAlQGITOVt8zgEsRh-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-52" target="58fUAlQGITOVt8zgEsRh-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-55" value="whr" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="89" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-55" target="58fUAlQGITOVt8zgEsRh-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="129" as="sourcePoint" />
+            <mxPoint x="1070" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-57" value="尝试插队领取 Java茶&lt;div&gt;倔强的小王拒绝插队行为&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="92" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-60" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-things/64/house_gasstove_n_oven-128.png" vertex="1" parent="1">
+          <mxGeometry x="970" y="379" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-61" value="wzz" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="416" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-62" value="小刘" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1229" y="416" width="30" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-61" target="58fUAlQGITOVt8zgEsRh-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-62" target="58fUAlQGITOVt8zgEsRh-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-65" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1080" y="529" width="50" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-66" value="小王" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="58fUAlQGITOVt8zgEsRh-65">
+          <mxGeometry width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-67" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.java" vertex="1" parent="58fUAlQGITOVt8zgEsRh-65">
+          <mxGeometry x="30.599999999999994" width="19.4" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-69" value="whr" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1294" y="413" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58fUAlQGITOVt8zgEsRh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58fUAlQGITOVt8zgEsRh-69" target="58fUAlQGITOVt8zgEsRh-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
