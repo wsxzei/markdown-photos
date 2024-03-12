@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T09:18:17.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_o8ep-POxrzy371m-WmR" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T09:57:58.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PlUpXxMqEhVNQcLDHAbH" version="24.0.4" type="github">
   <diagram name="第 1 页" id="4FpjKzO7oTdV1kjVZiOa">
-    <mxGraphModel dx="1787" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -354,6 +354,88 @@
         </mxCell>
         <mxCell id="oQ_XykTQwwmT8BF6WWH7-167" value="情况二：node 不为 head 的后继" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-90" y="440" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-170" value="owner_t" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="980" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-171" value="curr_t" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-172" value="preempt_t" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-173" value="owner_t：锁持有者线程&lt;div style=&quot;font-size: 15px;&quot;&gt;curr_t：等待队列中第一个线程&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;preempt_t：非公平锁抢占线程&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1100" y="150" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-175" value="tryRealse 将 state 设置为 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="980" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-176" value="unparkSuccessor&lt;br&gt;唤醒 curr_t 线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="980" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-177" value="新一轮 acquireQueued循环&lt;br&gt;tryAcquire 失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-178" value="检查state等于0&lt;br&gt;CAS 更新 state 为 1&lt;div&gt;设置 exclusiveOwnerThread&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oQ_XykTQwwmT8BF6WWH7-179" target="oQ_XykTQwwmT8BF6WWH7-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-184" value="return true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oQ_XykTQwwmT8BF6WWH7-183">
+          <mxGeometry x="0.2034" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oQ_XykTQwwmT8BF6WWH7-179" target="oQ_XykTQwwmT8BF6WWH7-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-187" value="return false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oQ_XykTQwwmT8BF6WWH7-186">
+          <mxGeometry x="0.2083" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-179" value="shouldParkAfterFailedAcquire&lt;br&gt;CAS 更新 head.ws(0) 为 SIGNAL(-1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1162.5" y="730" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-180" value="释放锁资源&lt;br&gt;head.ws == 0&lt;br&gt;不执行unparkSuccessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="665" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-182" value="park当前线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-185" value="空转，再次尝试 tryAcquire 获取锁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-190" value="" style="shape=mxgraph.signs.safety.no;html=1;pointerEvents=1;fillColor=#fad9d5;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;opacity=60;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1053.5" y="818" width="99" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-191" value="此时如果park 当前线程&lt;br&gt;很有可能不会再有其它线程unpark唤醒当前线程&lt;br&gt;当前线程导致永远获取不到锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="980" y="920" width="282" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-193" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="790" as="sourcePoint" />
+            <mxPoint x="1140" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-194" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="780" as="sourcePoint" />
+            <mxPoint x="1400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-195" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="780" as="sourcePoint" />
+            <mxPoint x="1580" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ_XykTQwwmT8BF6WWH7-196" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="789.05" as="sourcePoint" />
+            <mxPoint x="1140" y="789.05" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
