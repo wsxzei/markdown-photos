@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T07:00:21.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ptjhytgucVw08MjflDPB" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T07:15:11.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="L1rd1LBRkChxfijQvm9z" version="24.0.7" type="github">
   <diagram name="第 1 页" id="eQK8iN9wtmOXh5SC_Mzd">
     <mxGraphModel dx="581" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,30 @@
         </mxCell>
         <mxCell id="s7bBKaesX8yj2osPY7Zz-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.91;entryY=0.842;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s7bBKaesX8yj2osPY7Zz-8" target="s7bBKaesX8yj2osPY7Zz-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.1001928052766139;endAngle=0.1;" vertex="1" parent="1">
+          <mxGeometry x="291" y="300" width="189" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-15" value="机器1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#00CCCC;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-16" value="机器2" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#00CCCC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-17" value="机器3" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#00CCCC;" vertex="1" parent="1">
+          <mxGeometry x="451" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-18" value="key2&lt;div&gt;val2&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;sketch=1;curveFitting=1;jiggle=2;strokeColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="274" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-19" value="key3&lt;div&gt;val3&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;sketch=1;curveFitting=1;jiggle=2;strokeColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="295" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-20" value="key4&lt;div&gt;val4&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;sketch=1;curveFitting=1;jiggle=2;strokeColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="421" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7bBKaesX8yj2osPY7Zz-21" value="key1&lt;div&gt;val1&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;sketch=1;curveFitting=1;jiggle=2;strokeColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="461" y="380" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
